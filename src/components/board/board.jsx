@@ -1,4 +1,5 @@
 import React from "react";
+import './board.css';
 
 class Board extends React.Component {
   constructor(props) {
@@ -10,7 +11,10 @@ class Board extends React.Component {
   }
 
   render() {
-    return <div>Hi</div>
+    return <div className="page">
+      <div className="board">
+      </div>
+    </div>
   }
 }
 

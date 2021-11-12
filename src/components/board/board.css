@@ -1,0 +1,20 @@
+.board {
+  min-height: 100px;
+  min-width: 100px;
+  max-height: 80vw;
+  max-width: 80vh;
+  height: 80vh;
+  width: 80vw;
+
+  background-color: gray;
+  border: 1px black solid;
+  color: blue;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
