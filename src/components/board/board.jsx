@@ -9,15 +9,17 @@ class Board extends React.Component {
       label: "Sticky Notes",
       color: "brown",
       notes: [],
+      cells: [],
     }
   }
 
   render() {
     return <div className="page">
-      <div className="board">
-        <button>
+      <button>
           Add Note
-        </button>
+      </button>
+      <div className="board">
+        
         <Note/>
       </div>
     </div>
